@@ -5,7 +5,7 @@ RUN pip install pipenv
 WORKDIR /app
 
 COPY ["Pipfile", "Pipfile.lock", "./"]
-COPY ["model1.bin", "dv.bin", "./"]
+COPY ["model2.bin", "dv.bin", "./"]
  
 RUN pipenv install --system --deploy
  
